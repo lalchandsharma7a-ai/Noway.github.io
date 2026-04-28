@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ERROR</title>
+
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Big animated text */
+h1 {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  animation: pulse 1s infinite;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); color: red; }
+  50% { transform: scale(1.2); color: yellow; }
+  100% { transform: scale(1); color: red; }
+}
+
+/* Link style */
+a {
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: white;
+  color: black;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>DON'T CLICK RANDOM LINKS</h1>
+
+<a href="#">Click me</a>
+
+</body>
+</html>
